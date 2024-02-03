@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!-- Added TextView for displaying text above the grid -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Tic Tac Toe"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:columnCount="3"
+android:rowCount="3">
+
+<Button
+    android:id="@+id/btn1"
+
+    android:onClick="Check"/>
+<Button
+    android:id="@+id/btn2"
+    android:onClick="Check"
+
+    android:layout_marginLeft="11dp"/>
+<Button
+    android:id="@+id/btn3"
+    android:onClick="Check"
+
+    android:layout_marginLeft="11dp"/>
+<Button
+    android:onClick="Check"
+
+    android:id="@+id/btn4"/>
+<Button
+    android:id="@+id/btn5"
+    android:onClick="Check"
+
+    android:layout_marginLeft="11dp"/>
+<Button
+    android:id="@+id/btn6"
+    android:onClick="Check"
+
+    android:layout_marginLeft="11dp"/>
+<Button
+    android:id="@+id/btn7"
+    android:onClick="Check"
+
+    />
+<Button
+    android:id="@+id/btn8"
+    android:onClick="Check"
+
+    android:layout_marginLeft="11dp"/>
+<Button
+    android:id="@+id/btn9"
+    android:onClick="Check"
+
+    android:layout_marginLeft="11dp"/>
+
+</GridLayout>
+
+    </LinearLayout>
